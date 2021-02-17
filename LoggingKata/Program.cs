@@ -80,8 +80,9 @@ namespace LoggingKata
 
                 // Once you've looped through everything, you've found the two Taco Bells farthest away from each other.
             }
-            logger.LogInfo($"{tacoBell1.Name} and {tacoBell2.Name} are the farthest apart");
-            
+            //logger.LogInfo($"{tacoBell1.Name} and {tacoBell2.Name} are the farthest apart and the distance between them is {distance * .000621371}  miles");
+            Console.WriteLine($"The 2 furthest locations are {tacoBell1.Name} and  {tacoBell2.Name}");
+            Console.WriteLine($"The distance between them is {distance * .000621371} miles");
         }
     }
 }
